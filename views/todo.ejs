@@ -1,37 +1,60 @@
 <!DOCTYPE html>
-
 <html>
+<head>
+	<title>Quran Reading Website</title>
+</head>
+<body>
+	<header>
+		<h1>Quran Reading Website</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Surahs</a></li>
+				<li><a href="#">Juz</a></li>
+				<li><a href="#">About</a></li>
+			</ul>
+		</nav>
+	</header>
 
-    <head>
-        <title>My shaandaar todolist</title>
-        <style>
-            a {
-                text-decoration: none;
-                color: black;
-            }
+	<main>
+		<section>
+			<h2>Surah Al-Fatihah</h2>
+			<p>In the name of Allah, the Most Gracious, the Most Merciful.</p>
+			<p>Praise be to Allah, the Lord of the worlds.</p>
+			<p>The Most Gracious, the Most Merciful.</p>
+			<p>Master of the Day of Judgement.</p>
+			<p>You alone we worship, and You alone we ask for help.</p>
+			<p>Guide us to the straight path.</p>
+			<p>The path of those whom You have favored, not of those who have earned Your anger, nor of those who go astray.</p>
+		</section>
 
-        </style>
-    </head>
-
-    <body>
-        <h1>Ahlan Sahlan Mahe Ramadan, What are you planning to do in Ramadan? </h1>
-        <ul>
-            <% todolist.forEach(function(todo, index) { %>
-            <li>
-                <a href="/todo/delete/<%= index %>">✘</a>
-                <a href="/todo/<%= index %>">✎</a>
-                <%- todo %>
-            </li>
-            <% }); %>
-        </ul>
-
-        <form action="/todo/add/" method="post">
-            <p>
-                <label for="newtodo">What shoud I do?</label>
-                <input type="text" name="newtodo" id="newtodo" autofocus />
-                <input type="submit" value="Add" />
-            </p>
-        </form>
-    </body>
-
-</html>
+		<section>
+			<h2>Juz 1</h2>
+			<ul>
+				<li><a href="#">Surah Al-Fatihah</a></li>
+				<li><a href="#">Surah Al-Baqarah</a></li>
+				<li><a href="#">Surah Al-'Imran</a></li>
+				<li><a href="#">Surah An-Nisa'</a></li>
+				<li><a href="#">Surah Al-Ma'idah</a></li>
+				<li><a href="#">Surah Al-An'am</a></li>
+				<li><a href="#">Surah Al-A'raf</a></li>
+				<li><a href="#">Surah Al-Anfal</a></li>
+				<li><a href="#">Surah At-Tawbah</a></li>
+				<li><a href="#">Surah Yunus</a></li>
+				<li><a href="#">Surah Hud</a></li>
+				<li><a href="#">Surah Yusuf</a></li>
+				<li><a href="#">Surah Ar-Ra'd</a></li>
+				<li><a href="#">Surah Ibrahim</a></li>
+				<li><a href="#">Surah Al-Hijr</a></li>
+				<li><a href="#">Surah An-Nahl</a></li>
+				<li><a href="#">Surah Al-Isra'</a></li>
+				<li><a href="#">Surah Al-Kahf</a></li>
+				<li><a href="#">Surah Maryam</a></li>
+				<li><a href="#">Surah Ta Ha</a></li>
+				<li><a href="#">Surah Al-Anbiya'</a></li>
+				<li><a href="#">Surah Al-Hajj</a></li>
+				<li><a href="#">Surah Al-Mu'minun</a></li>
+				<li><a href="#">Surah An-Nur</a></li>
+				<li><a href="#">Surah Al-Furqan</a></li>
+				<li><a href="#">Surah Ash-Shu'ara</a></li>
+				
